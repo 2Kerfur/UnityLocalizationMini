@@ -24,7 +24,8 @@ Add LocalizeTMP_Text component to your text object and add Locales
 
 ![изображение](https://github.com/2Kerfur/UnityLocalizationMini/assets/73479696/f2706592-5e42-4f57-bece-86cbffa479b5)
 
-Select locale on game start
+Select locale on game start (Required)
 ```cs
 LocalizationManager.ChangeLocale(LocalizationManager.Language.en);
 ```
+Change it anywhere with the same code
