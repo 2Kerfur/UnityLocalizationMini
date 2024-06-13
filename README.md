@@ -8,8 +8,9 @@ It is simple and lightweight.
 Tested on Unity 2020.3 (Windows).
 
 ## Setup
-1. Import unitypackage.
-2. Rebuld C# project (it might be rebuild automatically).
+1. Import TMP_Pro text form package manager.
+2. Download and import latest unitypackage from Releases.
+3. Rebuld C# project (it might be rebuild automatically).
 
 ## How To Use
 In LocalizationManager.cs file add languages you need to enum.
