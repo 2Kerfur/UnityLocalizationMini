@@ -21,6 +21,7 @@ public class LocalizationManager
     }
     public static void ChangeLocale(Language language)
     {
+        texts = null;
         if (texts == null) texts = GameObject.FindObjectsOfType<LocalizeTMP_Text>(true);
 
         CurrentLanguage = language;
